@@ -31,9 +31,18 @@ main {
 }
 
 .centering-the-main-unit {
+   display: flex;
+   flex-flow: column;
+   justify-content: space-evenly;
    width: 100%;
    height: 500px;
    background-color: darkgrey;
+}
+
+.block-main-one {
+   width: 100%;
+   height: 200px;
+   background-color: darkorchid;
 }
 
 /*  ---- Подвал  ----*/
